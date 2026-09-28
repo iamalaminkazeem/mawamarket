@@ -1,0 +1,176 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model AdminUser {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String?
+  createdAt    DateTime @default(now())
+}
+
+model Customer {
+  id           String     @id @default(cuid())
+  name         String
+  email        String     @unique
+  phone        String?
+  passwordHash String
+  orders       Order[]
+  cartItems    CartItem[]
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+}
+
+model CartItem {
+  id         String   @id @default(cuid())
+  customerId String
+  customer   Customer @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  productId  String
+  product    Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  quantity   Int      @default(1)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@unique([customerId, productId])
+}
+
+model Category {
+  id        String    @id @default(cuid())
+  name      String    @unique
+  slug      String    @unique
+  sortOrder Int       @default(0)
+  visible   Boolean   @default(true)
+  products  Product[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+model Product {
+  id          String      @id @default(cuid())
+  name        String
+  description String?
+  price       Float
+  priceVaries Boolean     @default(false) // true = weight/register-priced, price is a placeholder
+  imageUrl    String?
+  categoryId  String
+  category    Category    @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  available   Boolean     @default(true)
+  featured    Boolean     @default(false)
+  sortOrder   Int         @default(0)
+  notes       String?
+  orderItems  OrderItem[]
+  cartItems   CartItem[]
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+}
+
+enum OrderType {
+  PICKUP
+  DELIVERY
+}
+
+enum OrderStatus {
+  RECEIVED
+  CONFIRMED
+  PREPARING
+  READY
+  COMPLETED
+  CANCELLED
+}
+
+model Order {
+  id                   String      @id @default(cuid())
+  orderNumber          String      @unique
+  customerId           String?
+  customer             Customer?   @relation(fields: [customerId], references: [id], onDelete: SetNull)
+  customerName         String
+  customerPhone        String
+  customerEmail        String?
+  orderType            OrderType
+  deliveryAddress      String?
+  deliveryCity         String?
+  deliveryState        String?
+  deliveryZip          String?
+  deliveryInstructions String?
+  pickupNotes          String?
+  items                OrderItem[]
+  subtotal             Float
+  deliveryFee          Float       @default(0)
+  tax                  Float       @default(0)
+  total                Float
+  status               OrderStatus @default(RECEIVED)
+  specialInstructions  String?
+  createdAt            DateTime    @default(now())
+  updatedAt            DateTime    @updatedAt
+}
+
+model OrderItem {
+  id                  String   @id @default(cuid())
+  orderId             String
+  order               Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productId           String?
+  product             Product? @relation(fields: [productId], references: [id], onDelete: SetNull)
+  itemNameSnapshot    String
+  priceSnapshot       Float
+  quantity            Int      @default(1)
+  subtotal            Float
+  specialInstructions String?
+  createdAt           DateTime @default(now())
+}
+
+model OrderCounter {
+  id      String @id @default("main")
+  lastSeq Int    @default(0)
+}
+
+model SiteSettings {
+  id                    String   @id @default("main")
+
+  storeName             String   @default("MaWa African Market")
+  tagline               String   @default("Your Taste of Home, In Every Aisle")
+  address               String?
+  phone                 String?
+  whatsappNumber        String?
+  email                 String?
+
+  hours                 Json     @default("{}")
+
+  heroHeadline          String   @default("Fresh African & Caribbean Groceries, Delivered With Care")
+  heroSubtext           String   @default("Authentic ingredients, pantry staples, and specialty foods from home.")
+  heroImageUrl          String?
+
+  aboutHeadline         String?
+  aboutBody             String?
+  aboutImageUrl         String?
+
+  orderingEnabled       Boolean  @default(true)
+  orderButtonText       String   @default("Shop Now")
+  deliveryEnabled       Boolean  @default(false)
+  deliveryFee           Float?
+  deliveryMinimum       Float?
+  deliveryNote          String?
+  taxEnabled            Boolean  @default(false)
+  taxMode               String   @default("percentage")
+  taxRate               Float?
+  taxFlatAmount         Float?
+  orderReceivedNote     String   @default("Your order has been received and will be reviewed by our team.")
+
+  googleMapsUrl         String?
+  googleMapsEmbedUrl    String?
+
+  instagramUrl          String?
+  facebookUrl           String?
+  tiktokUrl             String?
+
+  announcementEnabled   Boolean  @default(false)
+  announcementText      String?
+
+  updatedAt             DateTime @updatedAt
+}

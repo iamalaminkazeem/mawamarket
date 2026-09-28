@@ -1,0 +1,3611 @@
+{
+  "categories": [
+    "Meat, Fish & Seafood",
+    "Swallow & Fufu",
+    "Cooking Oil",
+    "Milk, Cereal & Breakfast",
+    "Other / Specialty Items",
+    "Beverages & Drinks",
+    "Soups, Stews & Seasoning",
+    "Rice, Beans & Grains",
+    "Snacks & Sweets",
+    "Vegetables & Leaves",
+    "Canned & Packaged Goods",
+    "Beauty & Personal Care",
+    "Household"
+  ],
+  "products": [
+    {
+      "name": "DRY FISH Dry fish",
+      "price": 0.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Ijebu Gari",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Praise Palm Oil",
+      "price": 15.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Cooking Oil",
+      "notes": null
+    },
+    {
+      "name": "Peak Powder",
+      "price": 25.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Nido Powder",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Peak Milk",
+      "price": 2.5,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Ghana Yam",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Vita Malt",
+      "price": 1.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Yellow Gari",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Liberian Fresh",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "African Fresh",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Titus Sardine",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Princess Sardine",
+      "price": 1.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Pepper Sauce",
+      "price": 22.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Dry Shrimp",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Brown Beans",
+      "price": 8.5,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Honey Beans",
+      "price": 15.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Chin Chin",
+      "price": 3.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Shortbread",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Ovaltine Biscuit",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Goat Meat With Skin",
+      "price": 17.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Cassava Leaves",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Knorr Chicken Cubes",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Maggi",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Jumbo",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Iyan Ado 10Lbs",
+      "price": 49.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Iyan Ado 2Lbs",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "IYAN ADO 4lbs",
+      "price": 19.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Semolina",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Onions Indomie",
+      "price": 1.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Canned & Packaged Goods",
+      "notes": null
+    },
+    {
+      "name": "Exeter Corned Beef",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Zwan Chicken",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Heinz Salad Cream",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Canned & Packaged Goods",
+      "notes": null
+    },
+    {
+      "name": "Ducros Curry",
+      "price": 3.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Ducros Thyme",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Lion Thyme",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Heinz Beans",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Red Pap",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Egusi Seed Large",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Morton Salt",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Custard",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Calve Mayonnaise",
+      "price": 15.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Canned & Packaged Goods",
+      "notes": null
+    },
+    {
+      "name": "Milo Large",
+      "price": 20.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Haffinique Peanut",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Coctail Fruit Drink",
+      "price": 2.5,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Hibiscus Flower Small",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Vimto",
+      "price": 1.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Malt Box Ginger",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Indomie Box Chicken",
+      "price": 34.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Dudu Osun Soap",
+      "price": 3.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "Dettol",
+      "price": 12.5,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Raw African Shea Butter Small",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "Cocoa Butter",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "Funbact-A",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Smokers Toothbrush",
+      "price": 3.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "Habanero Pepper",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Red Habenero Pepper",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "GA Kenkey",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Banku",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Amora Medium",
+      "price": 15.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Amora Small",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Cerelac",
+      "price": 24.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Ovaltine Medium",
+      "price": 22.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Ovaltine Small",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Nescafe",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Quaker Oats",
+      "price": 6.5,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "STZR Cayan Pepper",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Cube Sugar",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Ribena",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Mcvities Digestives",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Atote Original",
+      "price": 31.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Odogwu Bitters",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Jasmine Rice 10lbs",
+      "price": 16.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Jasmine Rice 25 Lbs",
+      "price": 41.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Jasmine Rice Broken 10lbs",
+      "price": 22.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Tiger Nut",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Ripe Plantain Chip Large",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Plantain Chips Small",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "African Clay Pab",
+      "price": 17.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Agege Bread",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Peak Powder Large",
+      "price": 31.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Malt Guiness",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Power Malt Extra Energy",
+      "price": 2.5,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Malta Maltex",
+      "price": 2.5,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Classic Malt",
+      "price": 1.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Peak Liquid",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Cow Feet",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Tripe",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Spinach",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Cut Okra",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Plantain Chips Large",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Plantain",
+      "price": 1.25,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Apetamin",
+      "price": 29.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "La Paix",
+      "price": 36.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Indomie Single Onions",
+      "price": 1.5,
+      "priceVaries": false,
+      "available": true,
+      "category": "Canned & Packaged Goods",
+      "notes": null
+    },
+    {
+      "name": "Attieke",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Vimto (6pack)",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "I-23 Vegetable Oil",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Cooking Oil",
+      "notes": null
+    },
+    {
+      "name": "Torborgee Oil Medium",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Cooking Oil",
+      "notes": null
+    },
+    {
+      "name": "Praise Palm Oil",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Cooking Oil",
+      "notes": null
+    },
+    {
+      "name": "Praise Zomi",
+      "price": 15.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Carotone",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "Geisha",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Cow Skin Medium",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Grounded Crayfish",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Smoked Turkey Wings",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Ogiri",
+      "price": 5.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "KIVO Gari Mix",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Maltina",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Amstel",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Mama Choice Plantain Fufu",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Mama Choice Cocoyam",
+      "price": 7.5,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "De Rica",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Canned & Packaged Goods",
+      "notes": null
+    },
+    {
+      "name": "Robb",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "FRESH Turkey Wings",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Igbo Kola Nut 3 For",
+      "price": 5.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Par Excellece Rice",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Suya Seasoning",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Mackerel",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Lion Curry",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Stock Fish",
+      "price": 17.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Yellow Gari",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Adobe",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Mint 3",
+      "price": 1.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "African Sponge Large soft",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "Palm Oil Medium",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Cooking Oil",
+      "notes": null
+    },
+    {
+      "name": "African Chicken",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Bay Leaves",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Yoruba Oil",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Nido",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Palm Oil",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Cooking Oil",
+      "notes": null
+    },
+    {
+      "name": "Pepper",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Peeled Banga Fish",
+      "price": 22.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Parboiled Rice",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "STZR PepperSoup Mix",
+      "price": 15.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Maggi Liquid",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Calaba Chalk",
+      "price": 3.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Country Onions",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Masala Seasoning",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Jollof Spice",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Corn Meal",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Prekese powder",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Webe Spice",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Potash",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "YAM FLOUR Amala\\Elubo",
+      "price": 22.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Peeled Beans",
+      "price": 18.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Dry Okra",
+      "price": 3.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Bitter Kola",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Banga Spice",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Beef Masala",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Ogbono Large",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Farina",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Pealed Ground Nut",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Raw Groundnut",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Bitter Leaf",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Utazi",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Uziza",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Bobolo",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Ukazi",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Dry Fish 2 Pieces",
+      "price": 25.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Maggi Small",
+      "price": 1.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Beef",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Milo Extra Lastge",
+      "price": 38.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Peak Milk Powder",
+      "price": 16.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Ghana Fresh",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Milo Small",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Coke Drink",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Ginger Drink",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Spaghettti",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Tissue",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Household",
+      "notes": null
+    },
+    {
+      "name": "Paper Towel",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Household",
+      "notes": null
+    },
+    {
+      "name": "Hen",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Okazi",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Oha Leaves Frozen",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Dry Oha Leave Large",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Stock Fish Whole",
+      "price": 35.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Cassava Flour Large",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "De Rica Small",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Canned & Packaged Goods",
+      "notes": null
+    },
+    {
+      "name": "Shirley Biscuit",
+      "price": 1.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Bell Pepper",
+      "price": 1.29,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Water Leave",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Kitteley",
+      "price": 20.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Frozen Ugu Leaves Puumpkn",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Snail",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Aboniki",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Ola Ola 4lbs",
+      "price": 24.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Malted Milk",
+      "price": 3.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Neat Fufu",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Dry Fish 3 Pieces",
+      "price": 28.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Coca Cola",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Hen",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Caro White",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Montana Jute Leaves",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Garden Eggs",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Cow Skin Small",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Pepper Sauce",
+      "price": 25.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Smoked Panla",
+      "price": 18.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Ground Osu",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Beans Flour",
+      "price": 8.5,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Oat Flour",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Foil Largev",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Household",
+      "notes": null
+    },
+    {
+      "name": "Foil Small",
+      "price": 1.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Household",
+      "notes": null
+    },
+    {
+      "name": "Tropiway Fufu",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Black Eyed Peas",
+      "price": 9.5,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Vita Milk Cocov",
+      "price": 3.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Waakye Leaves",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Blue Ben Butter",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Egusi Cup",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Scent Leaves",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Egusi Seed Small",
+      "price": 3.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Kyan",
+      "price": 1.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Ground Shrimp",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Ijebu Gari 2Lbs",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Sour sour",
+      "price": 8.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Ola Ola 10lbs",
+      "price": 54.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Peak Liquid Small",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Royalty Cream Crackers",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Knorr Beef",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Kuili Kuil",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Indian Head Corn Meal",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Mr John Plantain Chips Small",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Stzr Cameronian Black Pepper",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Black Soap Small",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "Black Soap Large",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "Moringa Toothpaste",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "Ground Dry Ginger",
+      "price": 3.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Nandod Peri -Peri Sauce",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Chin Chin Coconut",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Top",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Olive Oil",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Cooking Oil",
+      "notes": null
+    },
+    {
+      "name": "Talapia",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Locust Beans",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Shito Ghana",
+      "price": 19.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Ndengu ( Green Grams",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Njahi (Black Beans",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Kabras Sugar",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Ofada Rice",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "White Millet",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Yellow Corn",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Ghana Gari",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Pilau Masala",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Royco Muchuzi Mix",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Ketepa Pride Tea",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Kericho Gold (Black Tea",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Peeled Groundnut",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Palm Wine Small",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "African White Beans",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Pompano Fish",
+      "price": 17.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Deer Park Watet 48Pack",
+      "price": 15.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Deer Park Watwr 40 Pack",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Palm Oil Large",
+      "price": 18.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Cooking Oil",
+      "notes": null
+    },
+    {
+      "name": "Indomie instant",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Canned & Packaged Goods",
+      "notes": null
+    },
+    {
+      "name": "Golden Morn Large",
+      "price": 21.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Pepper Sauce",
+      "price": 10.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Achi",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Baobab Flour",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Guinea Corn Pap",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Golden Tropics Plantain Fufu",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Tetmosol",
+      "price": 1.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Unga Hostess Maise",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "White Corn Meal",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Tastypot Beans Flours 1Kg",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Ghana Roasted Corn Flour",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Origin",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Elizabeth Cocoa Butter",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "Croaker Fish",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Lima Beans",
+      "price": 15.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Palm Oil Extra Small",
+      "price": 3.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Cooking Oil",
+      "notes": null
+    },
+    {
+      "name": "Gino Large Peppe And Onion",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Chicken Feet",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "African Chicken Small",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Coated Groudnut",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Powder Groundnut",
+      "price": 26.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Ola Ola 2Lbs",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Honey Beans 10Lbs",
+      "price": 32.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Dettol Soap",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "Soursop Bitters",
+      "price": 23.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Whole Crayfish",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "African Bracelet",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Mr JOHN PLANTAIN CHIPS LARGE",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Torborgee Oil Large",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Cooking Oil",
+      "notes": null
+    },
+    {
+      "name": "Royal Red Stew",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Fish Powder",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Box Attieke",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Hibiscus Flower",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Heat Curry Powder",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Grounded egusi medium",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Crushed Red Pepper",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Liberian Beans Large",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Liberuan Beans Small",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Potatoe Leaves",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Raw Shea Butter Large",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "Msg",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Tumeric",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Palm Wine Large",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Saseme Seed",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Prekese whole",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Living bitters",
+      "price": 16.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Aghouba",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Water",
+      "price": 1.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Buns Bread",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Ogbono Seed",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Fried Rice Seasoning",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Tropiway Plantain Fufu 10Lbs",
+      "price": 62.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Nut Meg",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Cream Coconut",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Stzr Suya Spice",
+      "price": 15.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Garlic",
+      "price": 1.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Ginger",
+      "price": 0.5,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Whole Banga Fish",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Smoked Fish 2",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Benny Cubes 3",
+      "price": 5.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Dry Kitteley",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Tom Tom 3 For 1 Dollar",
+      "price": 1.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Lima Beans Small",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Frozen Cassava Fufu",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Chicken Gizzard",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Whole Chilli Pepper",
+      "price": 3.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Banku Flour",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Seseme Seeds",
+      "price": 3.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Royaltydigestive Cracker",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Asiko Peanut Butter Cooking",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Semovita",
+      "price": 18.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Mcvities Milk Chocolate Digetives",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Lucozade Energy Drink",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Golden Morn Small",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Ola Ola 5 Lbs",
+      "price": 27.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Cabin Biscuits",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Mayte Plantain Chips",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Cerelac Honey &Wheat",
+      "price": 24.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Yellow Gari Small",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Dry Fish Kuta",
+      "price": 22.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Redbull",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Aligator Pepper",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Corn Starch",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Nigerian Roasted peanuts",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Yellow Corn Swallow",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "White Corn Flour",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Puff Puff Mix",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Tom Brown",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Geisha With Tomatoes",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Vegetable Oil",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Cooking Oil",
+      "notes": null
+    },
+    {
+      "name": "Honey Bun",
+      "price": 1.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Vita Coco",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Knott Shortbread",
+      "price": 1.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Oreo",
+      "price": 0.5,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Neem Chewing Stick",
+      "price": 1.5,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Praise Palm Cream",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Praise Paln Cream With Onions",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Chips",
+      "price": 1.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "De Rica Extra Small",
+      "price": 1.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Canned & Packaged Goods",
+      "notes": null
+    },
+    {
+      "name": "Ijebu Gari 10Lbs",
+      "price": 28.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Soursop Leaves",
+      "price": 17.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Ghana Milo",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Baking Soda",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Household",
+      "notes": null
+    },
+    {
+      "name": "Tadin Chamomille Tea",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Tea",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Baking Powder",
+      "price": 1.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Household",
+      "notes": null
+    },
+    {
+      "name": "Remie Season",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Cocktail Fruit Drink",
+      "price": 3.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Grandiose Cocktail Peanut",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Coco Cola",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Arizona Drink",
+      "price": 1.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Hershey Kit Kat",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Green Tea Mint",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Mackerel 2Pack",
+      "price": 15.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Chin Chin",
+      "price": 30.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Puff Puff Mix Small",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Palm oil",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Cooking Oil",
+      "notes": null
+    },
+    {
+      "name": "Lady D Custard",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Cowpeas Beans",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Zesta Red Plum Jam",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "African Washed Beans",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Peak Powder Extra Large",
+      "price": 65.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Indomie Box Onions",
+      "price": 36.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Canned & Packaged Goods",
+      "notes": null
+    },
+    {
+      "name": "Royal White Basmati Rice",
+      "price": 49.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Indomie Single Chicken",
+      "price": 1.25,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Kepta Kenya Tea",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "A 5Lbs Palm Oil",
+      "price": 29.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Cooking Oil",
+      "notes": null
+    },
+    {
+      "name": "Pure Kenyan Pishori Rice",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Wonders Of African Power Healing Drink",
+      "price": 39.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Mother Africa",
+      "price": 39.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "African Black Soap Large",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "Horlick",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Congnons Moussos",
+      "price": 29.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Golden Star Jasmine Rice",
+      "price": 15.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Peanut Candy",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Chin chin X-Large",
+      "price": 39.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Worlor",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Aloma Bitters",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Achoura Tea (Atayay)",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Peanut Candy Small",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Coconut candy",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Frozen Cassava (Yuca)",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "M&M Candy",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Iberia Sunflower And Olive Oi",
+      "price": 19.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Cooking Oil",
+      "notes": null
+    },
+    {
+      "name": "Jersey",
+      "price": 30.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Flags",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Pepper Soup Spice",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Stzr Ijebu Gari",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Frozen Cassava Yuca",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Stzr Crayfish",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Peanut candy X-Large",
+      "price": 16.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Sesame Candy",
+      "price": 7.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Jaribu Soap",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "African Snacks",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Coconut Candy Xlarge",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Croaker Fish Large",
+      "price": 19.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Ghanian Seasoning",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Soups, Stews & Seasoning",
+      "notes": null
+    },
+    {
+      "name": "Shito Powder Mix",
+      "price": 19.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Eno Paln Nut Pulp",
+      "price": 11.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Meat Pie",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Royalty Oaties",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "African Plums",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Coated Burger Peanut",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "PUFF PUFF 4 for 5 dollars",
+      "price": 5.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Cooked rice",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Cooked Soup",
+      "price": 24.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Lemon Ginger Tea",
+      "price": 19.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Chin Chin Medium",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Chin Chin Xxlarge",
+      "price": 49.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Waist beads",
+      "price": 8.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Laughing Cow Cheese",
+      "price": 5.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Can Guiness Malt",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beverages & Drinks",
+      "notes": null
+    },
+    {
+      "name": "Soup And Rice Or Fufu",
+      "price": 30.0,
+      "priceVaries": false,
+      "available": true,
+      "category": "Rice, Beans & Grains",
+      "notes": null
+    },
+    {
+      "name": "Checkers Custard",
+      "price": 21.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Milk, Cereal & Breakfast",
+      "notes": null
+    },
+    {
+      "name": "Bitter Lemon",
+      "price": 2.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Lamb",
+      "price": 14.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "De Rica Medium",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Canned & Packaged Goods",
+      "notes": null
+    },
+    {
+      "name": "African Baking Soda",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Household",
+      "notes": null
+    },
+    {
+      "name": "Ijebu Gari 6Lb",
+      "price": 15.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "STZR IJEBU GARI 6lbs",
+      "price": 15.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "Herbal Leaves",
+      "price": 12.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Vegetables & Leaves",
+      "notes": null
+    },
+    {
+      "name": "Aloma Bitters",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Smoked Fish 3",
+      "price": 17.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Peeled Bonny/Bonga Fish Small",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Meat, Fish & Seafood",
+      "notes": null
+    },
+    {
+      "name": "Brown Top",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Ogili",
+      "price": 9.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "GHANA GARI 2lb",
+      "price": 4.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Swallow & Fufu",
+      "notes": null
+    },
+    {
+      "name": "African sponge Hard",
+      "price": 13.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Beauty & Personal Care",
+      "notes": null
+    },
+    {
+      "name": "Naomi la cr\u00e8me triple itch",
+      "price": 18.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Ampicillin",
+      "price": 10.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Other / Specialty Items",
+      "notes": null
+    },
+    {
+      "name": "Akara (4 pieces)",
+      "price": 6.99,
+      "priceVaries": false,
+      "available": true,
+      "category": "Snacks & Sweets",
+      "notes": null
+    },
+    {
+      "name": "Yam",
+      "price": 0.0,
+      "priceVaries": true,
+      "available": false,
+      "category": "Vegetables & Leaves",
+      "notes": "Priced by weight/at register \u2014 set a fixed price to activate."
+    },
+    {
+      "name": "Tilapia",
+      "price": 0.0,
+      "priceVaries": true,
+      "available": false,
+      "category": "Meat, Fish & Seafood",
+      "notes": "Priced by weight/at register \u2014 set a fixed price to activate."
+    },
+    {
+      "name": "Cat Fish",
+      "price": 0.0,
+      "priceVaries": true,
+      "available": false,
+      "category": "Meat, Fish & Seafood",
+      "notes": "Priced by weight/at register \u2014 set a fixed price to activate."
+    },
+    {
+      "name": "Tomatoes",
+      "price": 0.0,
+      "priceVaries": true,
+      "available": false,
+      "category": "Vegetables & Leaves",
+      "notes": "Priced by weight/at register \u2014 set a fixed price to activate."
+    },
+    {
+      "name": "Onion (2.5lb bag)",
+      "price": 0.0,
+      "priceVaries": true,
+      "available": false,
+      "category": "Vegetables & Leaves",
+      "notes": "Priced by weight/at register \u2014 set a fixed price to activate."
+    },
+    {
+      "name": "Dry Chicken",
+      "price": 0.0,
+      "priceVaries": true,
+      "available": false,
+      "category": "Meat, Fish & Seafood",
+      "notes": "Priced by weight/at register \u2014 set a fixed price to activate."
+    }
+  ]
+}

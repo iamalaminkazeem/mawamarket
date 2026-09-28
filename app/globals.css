@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.container-market {
+  @apply max-w-7xl mx-auto px-5 sm:px-8;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-market-green text-market-cream px-6 py-3 font-medium tracking-wide transition-all duration-300 hover:bg-market-green-dark hover:shadow-lg hover:-translate-y-0.5;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-market-gold text-market-charcoal px-6 py-3 font-medium tracking-wide transition-all duration-300 hover:bg-market-gold hover:text-market-charcoal hover:-translate-y-0.5;
+}
+
+.section-heading {
+  @apply font-serif text-3xl sm:text-4xl font-bold text-market-charcoal;
+}
+
+/* Scroll-reveal: elements start hidden, JS adds .is-visible via IntersectionObserver */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-up {
+  animation: fadeUp 0.7s ease-out forwards;
+}
+
+/* Subtle 3D tilt for product/feature cards, driven by mousemove via a small helper */
+.tilt-card {
+  transform-style: preserve-3d;
+  transition: transform 0.15s ease-out, box-shadow 0.3s ease;
+  will-change: transform;
+}
+
+.shimmer-bg {
+  background: linear-gradient(90deg, #f0e9d8 25%, #fbf7ef 37%, #f0e9d8 63%);
+  background-size: 400% 100%;
+  animation: shimmer 2.5s linear infinite;
+}
+
+::selection {
+  background: #d4941e;
+  color: #211e1a;
+}
