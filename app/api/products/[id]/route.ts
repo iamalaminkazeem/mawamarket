@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth/options";
 import { prisma } from "@/lib/db/prisma";
@@ -17,6 +18,8 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
   if (!parsed.success) return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
 
   const product = await prisma.product.update({ where: { id: params.id }, data: parsed.data });
+  revalidatePath("/shop");
+  revalidatePath("/");
   return NextResponse.json(product);
 }
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Plus, Trash2, Save, Star, X, Search } from "lucide-react";
+import { Plus, Trash2, Save, Star, X, Search, Check } from "lucide-react";
 import ImageUploader from "@/components/admin/ImageUploader";
 
 type Product = {
@@ -29,6 +29,7 @@ export default function ProductAdminTable({
   const [saving, setSaving] = useState(false);
   const [query, setQuery] = useState("");
   const [categoryFilter, setCategoryFilter] = useState("all");
+  const [savedId, setSavedId] = useState<string | null>(null);
   const [form, setForm] = useState({
     name: "",
     price: "",
@@ -67,12 +68,30 @@ export default function ProductAdminTable({
   }
 
   async function updateProduct(id: string, data: Partial<Product>) {
+    const previous = products.find((p) => p.id === id);
     setProducts((prev) => prev.map((p) => (p.id === id ? { ...p, ...data } : p)));
-    await fetch(`/api/products/${id}`, {
-      method: "PATCH",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    });
+    try {
+      const res = await fetch(`/api/products/${id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error("Save failed");
+      if ("name" in data) {
+        setSavedId(id);
+        setTimeout(() => setSavedId((cur) => (cur === id ? null : cur)), 1500);
+      }
+    } catch {
+      // Put the old values back so the table never shows something that wasn't saved
+      if (previous) setProducts((prev) => prev.map((p) => (p.id === id ? previous : p)));
+      alert("Couldn't save that change. Check your connection and try again.");
+    }
+  }
+
+  function saveName(p: Product, value: string) {
+    const name = value.trim();
+    if (!name || name === p.name) return; // empty or unchanged: do nothing
+    updateProduct(p.id, { name });
   }
 
   async function deleteProduct(id: string) {
@@ -197,12 +216,22 @@ export default function ProductAdminTable({
                   </div>
                 </td>
                 <td className="px-4 py-3 font-medium">
-                  {p.name}
-                  {p.priceVaries && (
-                    <span className="ml-2 text-[10px] uppercase tracking-wide text-market-gold font-semibold">
-                      Variable
-                    </span>
-                  )}
+                  <div className="flex items-center gap-2">
+                    <input
+                      key={`${p.id}-${p.name}`}
+                      defaultValue={p.name}
+                      onBlur={(e) => saveName(p, e.target.value)}
+                      onKeyDown={(e) => e.key === "Enter" && e.currentTarget.blur()}
+                      aria-label={`Name for ${p.name}`}
+                      className="w-full min-w-[180px] rounded border border-transparent hover:border-black/10 focus:border-market-green focus:bg-white bg-transparent px-2 py-1 font-medium outline-none transition-colors"
+                    />
+                    {savedId === p.id && <Check size={16} className="text-market-green shrink-0" />}
+                    {p.priceVaries && (
+                      <span className="text-[10px] uppercase tracking-wide text-market-gold font-semibold shrink-0">
+                        Variable
+                      </span>
+                    )}
+                  </div>
                 </td>
                 <td className="px-4 py-3 text-market-charcoal/60">
                   {categories.find((c) => c.id === p.categoryId)?.name || "—"}
