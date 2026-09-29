@@ -1,7 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { Plus, Trash2, Save, Star, X, Search, Check } from "lucide-react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { Plus, Trash2, Save, Star, X, Search, Check, ChevronLeft, ChevronRight } from "lucide-react";
 import ImageUploader from "@/components/admin/ImageUploader";
 
 type Product = {
@@ -30,6 +30,9 @@ export default function ProductAdminTable({
   const [query, setQuery] = useState("");
   const [categoryFilter, setCategoryFilter] = useState("all");
   const [savedId, setSavedId] = useState<string | null>(null);
+  const [page, setPage] = useState(0);
+  const PAGE_SIZE = 100;
+  const tableRef = useRef<HTMLDivElement>(null);
   const [form, setForm] = useState({
     name: "",
     price: "",
@@ -44,6 +47,19 @@ export default function ProductAdminTable({
       return true;
     });
   }, [products, query, categoryFilter]);
+
+  // Start back at page 1 whenever the search or category filter changes
+  useEffect(() => setPage(0), [query, categoryFilter]);
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const pageStart = page * PAGE_SIZE;
+  const pageProducts = filtered.slice(pageStart, pageStart + PAGE_SIZE);
+
+  function goToPage(next: number) {
+    const clamped = Math.min(Math.max(next, 0), totalPages - 1);
+    setPage(clamped);
+    tableRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 
   async function createProduct(e: React.FormEvent) {
     e.preventDefault();
@@ -180,11 +196,38 @@ export default function ProductAdminTable({
           ))}
         </select>
       </div>
-      <p className="text-xs text-market-charcoal/50 mb-3">
-        Showing {filtered.length} of {products.length} products
-      </p>
+      <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
+        <p className="text-xs text-market-charcoal/50">
+          Showing {pageProducts.length === 0 ? 0 : pageStart + 1}–{pageStart + pageProducts.length} of{" "}
+          {filtered.length} product{filtered.length !== 1 ? "s" : ""}
+          {filtered.length !== products.length && ` (filtered from ${products.length})`}
+        </p>
+        {totalPages > 1 && (
+          <div className="flex items-center gap-1">
+            <button
+              onClick={() => goToPage(page - 1)}
+              disabled={page === 0}
+              className="p-1.5 rounded-lg border border-black/10 disabled:opacity-30 hover:bg-market-cream"
+              aria-label="Previous 100"
+            >
+              <ChevronLeft size={16} />
+            </button>
+            <span className="text-xs text-market-charcoal/60 px-2">
+              Page {page + 1} of {totalPages}
+            </span>
+            <button
+              onClick={() => goToPage(page + 1)}
+              disabled={page >= totalPages - 1}
+              className="p-1.5 rounded-lg border border-black/10 disabled:opacity-30 hover:bg-market-cream"
+              aria-label="Next 100"
+            >
+              <ChevronRight size={16} />
+            </button>
+          </div>
+        )}
+      </div>
 
-      <div className="bg-white rounded-2xl border border-black/5 overflow-x-auto">
+      <div ref={tableRef} className="bg-white rounded-2xl border border-black/5 overflow-x-auto">
         <table className="w-full text-sm min-w-[780px]">
           <thead className="bg-market-cream text-left">
             <tr>
@@ -198,7 +241,7 @@ export default function ProductAdminTable({
             </tr>
           </thead>
           <tbody className="divide-y divide-black/5">
-            {filtered.slice(0, 100).map((p) => (
+            {pageProducts.map((p) => (
               <tr key={p.id}>
                 <td className="px-4 py-3">
                   <div className="flex items-center gap-2">
@@ -266,10 +309,24 @@ export default function ProductAdminTable({
             ))}
           </tbody>
         </table>
-        {filtered.length > 100 && (
-          <p className="text-center text-xs text-market-charcoal/40 py-3 border-t border-black/5">
-            Showing first 100 results — refine your search to see more specific matches.
-          </p>
+        {totalPages > 1 && (
+          <div className="flex items-center justify-center gap-3 py-4 border-t border-black/5">
+            <button
+              onClick={() => goToPage(page - 1)}
+              disabled={page === 0}
+              className="flex items-center gap-1 text-sm font-medium text-market-green disabled:opacity-30 disabled:cursor-not-allowed"
+            >
+              <ChevronLeft size={16} /> Previous 100
+            </button>
+            <span className="text-xs text-market-charcoal/40">Page {page + 1} of {totalPages}</span>
+            <button
+              onClick={() => goToPage(page + 1)}
+              disabled={page >= totalPages - 1}
+              className="flex items-center gap-1 text-sm font-medium text-market-green disabled:opacity-30 disabled:cursor-not-allowed"
+            >
+              Next 100 <ChevronRight size={16} />
+            </button>
+          </div>
         )}
         {filtered.length === 0 && (
           <p className="text-center text-market-charcoal/50 py-10">No products match your search.</p>
